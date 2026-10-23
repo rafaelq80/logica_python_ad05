@@ -1,0 +1,30 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# ---------- Ambientes virtuais ----------
+.venv/
+venv/
+env/
+
+# ---------- Variáveis de ambiente e segredos ----------
+.env
+
+# ---------- Testes e ferramentas ----------
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ---------- Editores ----------
+.vscode/
+.idea/
+
+# ---------- Arquivos do sistema ----------
+.DS_Store
+Thumbs.db
+desktop.ini
